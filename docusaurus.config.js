@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/实践论.md',
+                to: '/docs/intro',
               },
             ],
           },
