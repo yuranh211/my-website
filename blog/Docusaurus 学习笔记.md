@@ -1,7 +1,6 @@
 ---
 slug: hello-docusaurus
 title: Docusaurus 学习笔记
-tags: [hello, docusaurus]
 ---
 
 
