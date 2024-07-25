@@ -1,9 +1,9 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: endi
+slug: hello-docusaurus
+title: Docusaurus 学习笔记
 tags: [hello, docusaurus]
 ---
+
 
 This is the summary of a very long blog post,
 
