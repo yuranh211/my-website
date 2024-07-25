@@ -1,3 +1,8 @@
+---
+slug: intro
+title: intro
+---
+
 你好呀
 
 git add .
