@@ -65,6 +65,92 @@ I am because you are !
 
 
 
+## 五、新建项目
+
+src 文件夹 ➡️ pages 文件夹
+
+可以新建一个 Markdown 文件 ，也可以新建一个 JS 文件
+
+:::warning
+
+建立可重复使用的components ？ 我不太懂哎
+
+:::
+
+
+## 六、docusaurus.config（样式的设定）
+
+- title：My site
+- tagline：Dinosaurs are cool
+- favicon: 'img/favicon.ico'
+
+这个部分，是设定网站的标题、首页宣言以及图标，可以自行设定
+
+
+
+- broken links 无效链接问题，可能会出现在网站部署环节
+
+
+
+:::note
+
+在 intro 页面，建一个网站目录，是可以实现滴！（视频的第27分钟）
+
+:::
+
+- i18n 网站的语言，默认是英语（en），可以改成简体中文（zh），繁体中文（zh-Hant）
+
+- 网站颜色主题的切换：
+
+themeconfig 部分，程序语言不会写，就先不放了
+
+- 设定公告栏  announcementbar
+
+- ctrl + I ，可以看提示，themeconfig哪些还可以调整
+
+
+### (一)移除“编辑此页”
+
+在 docusaurus.config.js 文件中，presets部分，将 “editurl” 删除就行 （本人没有这个需求）
+
+### （二）修改 vercel 部署成功后的URL
+
+[我的网站](https://my-website-eight-lilac.vercel.app/) 
+
+在 docusaurus.config.js 文件中，开头部分，将 URL 替换成vercel部署生成的 URL
+
+这会影响你的 /sitemap.xml     我也不太懂捏 :(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
