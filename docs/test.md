@@ -109,7 +109,7 @@ themeconfig 部分，程序语言不会写，就先不放了
 - ctrl + I ，可以看提示，themeconfig哪些还可以调整
 
 
-### (一)移除“编辑此页”
+### （一）移除“编辑此页”
 
 在 docusaurus.config.js 文件中，presets部分，将 “editurl” 删除就行 （本人没有这个需求）
 
@@ -120,6 +120,12 @@ themeconfig 部分，程序语言不会写，就先不放了
 在 docusaurus.config.js 文件中，开头部分，将 URL 替换成vercel部署生成的 URL
 
 这会影响你的 /sitemap.xml     我也不太懂捏 :(
+
+
+### （三）移除右上角 “GitHub” 图标
+
+在 docusaurus.config.js 文件中，themeconfig ➡️ navbar 部分，将**带有GitHub字样的大括号代码** 删除就行 （本人没有这个需求）
+
 
 
 
