@@ -97,6 +97,11 @@ const config = {
         apiKey: 'f91dbe548d6442146bcd8283c6f852df',
   
         indexName: 'my-web-eight-lilac',
+
+        start_urls: "https://my-website-eight-lilac.vercel.app/",
+
+        sitemap_urls: "https://my-website-eight-lilac.vercel.app/sitemap.xml",
+        
   
         // 可选：见下文
         contextualSearch: true,
@@ -107,7 +112,7 @@ const config = {
         // 可选：替换 Algolia 的部分网址。 在使用相同搜索索引支持多个不同 baseUrl 的部署时非常有用。 你可以在 “from” 中使用正则表达式或字符串。 比方说，localhost:3000 和 myCompany.com/docs
         replaceSearchResultPathname: {
           from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
+          to: '/docs/',
         },
   
         // 可选：Algolia 搜索参数
