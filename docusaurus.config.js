@@ -132,7 +132,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文章',
             items: [
               {
                 label: 'Tutorial',
@@ -141,33 +141,30 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '外援',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Notion',
+                href: 'https://www.notion.so/73364864d93a4d2ead0d1b26883c0561',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '腾讯文档',
+                href: 'https://docs.qq.com/home',
               },
             ],
           },
           {
-            title: 'More',
+            title: '博客',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              
             ],
           },
         ],
