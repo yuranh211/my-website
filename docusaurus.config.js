@@ -54,6 +54,7 @@ const config = {
           blogSidebarTitle: 'All Blog Posts',
           blogSidebarCount: 'ALL', // 在侧边栏中显示所有文章
           showReadingTime: true,
+          onUntruncatedBlogPosts: 'ignore',
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -135,35 +136,47 @@ const config = {
             title: '文章',
             items: [
               {
+                label: 'Notion',
+                href: 'https://www.notion.so/73364864d93a4d2ead0d1b26883c0561',
+              },
+
+              {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
             ],
           },
+
           {
             title: '外援',
             items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com',
-              },
-              {
-                label: 'Notion',
-                href: 'https://www.notion.so/73364864d93a4d2ead0d1b26883c0561',
-              },
+
               {
                 label: '腾讯文档',
                 href: 'https://docs.qq.com/home',
               },
+              
+              {
+                label: 'GitHub',
+                href: 'https://github.com',
+              },
+              
+              
             ],
           },
           {
             title: '博客',
             items: [
               {
+                label: '备忘录',
+                href: 'https://www.icloud.com.cn/',
+              },
+
+              {
                 label: 'Blog',
                 to: '/blog',
               },
+              
               
             ],
           },
