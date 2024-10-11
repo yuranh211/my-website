@@ -15,11 +15,6 @@
   },
   "dependencies": {
     "@docsearch/react": "^3.6.1",
-<<<<<<< HEAD
-    "@docusaurus/core": "^3.5.2",
-=======
-    "@docusaurus/core": "^3.5.1",
->>>>>>> 3324a04cb79e4a5a66cd3e72005c42c345c9949f
     "@docusaurus/plugin-content-docs": "^3.5.1",
     "@docusaurus/preset-classic": "^3.5.2",
     "@mdx-js/react": "^3.0.0",
